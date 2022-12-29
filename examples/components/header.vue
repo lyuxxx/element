@@ -112,11 +112,11 @@
       list-style: none;
       position: relative;
       cursor: pointer;
-    
+
       &.nav-algolia-search {
         cursor: default;
       }
-    
+
       &.lang-item,
       &:last-child {
         cursor: default;
@@ -210,7 +210,7 @@
       }
     }
   }
-  
+
   .nav-dropdown-list {
     width: auto;
   }
@@ -230,7 +230,7 @@
         &:last-child {
           margin-left: 10px;
         }
-         
+
         a {
           padding: 0 5px;
         }
@@ -254,11 +254,11 @@
 
         &.lang-item {
           height: 100%;
-         
+
           .nav-lang {
             display: flex;
             align-items: center;
-            
+
             span {
               padding-bottom: 0;
             }
@@ -326,7 +326,7 @@
               :to="`/${ lang }/component`">{{ langConfig.components }}
             </router-link>
           </li>
-          <li 
+          <li
             class="nav-item nav-item-theme"
           >
             <router-link
@@ -372,7 +372,7 @@
           </li>
 
           <!-- 语言选择器 -->
-          <li class="nav-item lang-item">
+          <li class="nav-item lang-item" v-if="false">
             <el-dropdown
               trigger="click"
               class="nav-dropdown nav-lang"

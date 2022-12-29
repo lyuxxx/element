@@ -29,7 +29,8 @@ const install = function(Vue, opts = {}) {
 
   Vue.use(InfiniteScroll);
   Vue.use(Loading.directive);
-
+  Vue.use(window.RVC);
+  window.RVC.config({env: 'beta'});
   Vue.prototype.$ELEMENT = {
     size: opts.size || '',
     zIndex: opts.zIndex || 2000

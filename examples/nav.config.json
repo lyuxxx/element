@@ -41,6 +41,23 @@
       "name": "组件",
       "groups": [
         {
+          "groupName": "内部组件",
+          "list": [
+            {
+              "path": "/store-select",
+              "title": "StoreSelect 门店组件"
+            },
+            {
+              "path": "/comma-select",
+              "title": "CommaSelect 逗号拼接value选择器"
+            },
+            {
+              "path": "/date-range-picker",
+              "title": "DateRangePicker 日期范围选择器"
+            }
+          ]
+        },
+        {
           "groupName": "Basic",
           "list": [
             {
@@ -358,6 +375,23 @@
     {
       "name": "Components",
       "groups": [
+        {
+          "groupName": "内部组件",
+          "list": [
+            {
+              "path": "/store-select",
+              "title": "StoreSelect 门店组件"
+            },
+            {
+              "path": "/comma-select",
+              "title": "CommaSelect 逗号拼接value选择器"
+            },
+            {
+              "path": "/date-range-picker",
+              "title": "DateRangePicker 日期范围选择器"
+            }
+          ]
+        },
         {
           "groupName": "Basic",
           "list": [
@@ -677,6 +711,23 @@
       "name": "Components",
       "groups": [
         {
+          "groupName": "内部组件",
+          "list": [
+            {
+              "path": "/store-select",
+              "title": "StoreSelect 门店组件"
+            },
+            {
+              "path": "/comma-select",
+              "title": "CommaSelect 逗号拼接value选择器"
+            },
+            {
+              "path": "/date-range-picker",
+              "title": "DateRangePicker 日期范围选择器"
+            }
+          ]
+        },
+        {
           "groupName": "Basic",
           "list": [
             {
@@ -994,6 +1045,23 @@
     {
       "name": "Composants",
       "groups": [
+        {
+          "groupName": "内部组件",
+          "list": [
+            {
+              "path": "/store-select",
+              "title": "StoreSelect 门店组件"
+            },
+            {
+              "path": "/comma-select",
+              "title": "CommaSelect 逗号拼接value选择器"
+            },
+            {
+              "path": "/date-range-picker",
+              "title": "DateRangePicker 日期范围选择器"
+            }
+          ]
+        },
         {
           "groupName": "Basiques",
           "list": [

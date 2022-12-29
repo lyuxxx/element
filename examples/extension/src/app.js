@@ -8,6 +8,9 @@ export default () => {
   const root = document.createElement('div');
   document.body.appendChild(root);
 
+  Vue.use(window.RVC);
+  window.RVC.config({ env: 'beta' });
+
   window.ga = function() {
     console.log(arguments);
   };

@@ -82,6 +82,9 @@ import { ElAvatar } from './avatar'
 import { ElDrawer } from './drawer'
 
 import { ElStatistic } from './statistic'
+import { StoreSelect } from './store-select'
+import { DateRangePicker } from './date-range-picker'
+import { CommaSelect } from './comma-select'
 
 export interface InstallationOptions {
   locale: any,
@@ -725,3 +728,12 @@ export class DescriptionsItem extends ElDescriptionsItem {}
 
 /** Result Component */
 export class Result extends ElResult {}
+
+/** StoreSelect Component */
+export class StoreSelect {}
+
+/** DateRangePicker Component */
+export class DateRangePicker {}
+
+/** CommaSelect Component */
+export class CommaSelect {}

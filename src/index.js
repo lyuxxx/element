@@ -89,6 +89,9 @@ import Empty from '../packages/empty/index.js';
 import Descriptions from '../packages/descriptions/index.js';
 import DescriptionsItem from '../packages/descriptions-item/index.js';
 import Result from '../packages/result/index.js';
+import StoreSelect from '../packages/store-select/index.js';
+import DateRangePicker from '../packages/date-range-picker/index.js';
+import CommaSelect from '../packages/comma-select/index.js';
 import locale from 'element-ui/src/locale';
 import CollapseTransition from 'element-ui/src/transitions/collapse-transition';
 
@@ -177,6 +180,9 @@ const components = [
   Descriptions,
   DescriptionsItem,
   Result,
+  StoreSelect,
+  DateRangePicker,
+  CommaSelect,
   CollapseTransition
 ];
 
@@ -190,7 +196,8 @@ const install = function(Vue, opts = {}) {
 
   Vue.use(InfiniteScroll);
   Vue.use(Loading.directive);
-
+  Vue.use(window.RVC);
+  window.RVC.config({env: 'beta'});
   Vue.prototype.$ELEMENT = {
     size: opts.size || '',
     zIndex: opts.zIndex || 2000
@@ -305,5 +312,8 @@ export default {
   Empty,
   Descriptions,
   DescriptionsItem,
-  Result
+  Result,
+  StoreSelect,
+  DateRangePicker,
+  CommaSelect
 };

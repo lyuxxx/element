@@ -80,6 +80,10 @@
       if (this.lang === 'zh-CN') {
         this.suggestJump();
       }
+      let script = document.createElement('script');
+      script.type = 'text/javascript';
+      script.src = 'http://rt-fe-fusion.idc1.fn/rvc/sdk.js';
+      document.body.appendChild(script);
     }
   };
 </script>
