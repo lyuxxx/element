@@ -7,6 +7,7 @@
       :collapse-tags="collapseTags"
       :popper-append-to-body="false"
       placeholder="请选择"
+      :clearable="showAll"
       v-reservation="[values, reservation]"
       ref="select"
       class="all-select-box"

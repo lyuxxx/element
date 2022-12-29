@@ -180,7 +180,7 @@ if (userLanguage.indexOf('zh-') !== -1) {
 
 route = route.concat([{
   path: '/',
-  redirect: defaultPath
+  redirect: defaultPath + '/component/store-select'
 }, {
   path: '*',
   redirect: defaultPath

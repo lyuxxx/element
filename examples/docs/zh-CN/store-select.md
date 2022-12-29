@@ -30,10 +30,10 @@
     },
       methods: {
           defaultSelectStore() {
-              console.log('默认选中事件触发')
+
           },
           storeChange() {
-              console.log('门店改变事件触发')
+
           }
       }
   };

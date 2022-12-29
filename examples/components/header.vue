@@ -348,7 +348,7 @@
           </li>
 
           <!-- 版本选择器 -->
-          <li class="nav-item nav-versions" v-show="isComponentPage">
+          <li class="nav-item nav-versions" v-if="false">
             <el-dropdown
               trigger="click"
               class="nav-dropdown"
